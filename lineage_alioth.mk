@@ -20,8 +20,8 @@ $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 #luna
 TARGET_OPTIMIZED_DEXOPT := true
-TARGET_USES_OMNI_GAPPS := true
-LUNARIS_BUILD_TYPE := OFFICIAL
+TARGET_USES_PICO_GAPPS := true
+EVO_BUILD_TYPE := Fan-Edition
 
 PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
