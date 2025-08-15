@@ -18,6 +18,11 @@ TARGET_INCLUDES_MIUI_CAMERA := true
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
+#luna
+TARGET_OPTIMIZED_DEXOPT := true
+TARGET_USES_OMNI_GAPPS := true
+LUNARIS_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
